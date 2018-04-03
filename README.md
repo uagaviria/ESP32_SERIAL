@@ -69,3 +69,5 @@ void loop() { //Choose Serial1 or Serial2 as required
 ```
 <img src='https://github.com/uagaviria/ESP32_SERIAL/blob/master/img/SERIAL1.png' />
 
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+
