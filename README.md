@@ -1,5 +1,5 @@
 # ESP32_SERIAL
-
+, INTERRUPCIONES.
 
 Si usas el IDE de Arduino para programar el ESP32, es posible que el uso del UART 1. requiera un cambio de pines para que funcione.
 
@@ -70,4 +70,32 @@ void loop() { //Choose Serial1 or Serial2 as required
 # Coneciones del puerto Serial pot Hardware.
 <img src='https://github.com/uagaviria/ESP32_SERIAL/blob/master/img/SERIAL1.png' />
 
+# INTERRUPCIONES
 
+```C++
+#include <Arduino.h>
+#include <WiFi.h>
+const byte int_pin = 25; //Hall Effect Pin for Speed measurement
+int contador = 0;
+int retraso = 0;
+void setup() {
+Serial.begin(115200);
+pinMode(int_pin, INPUT_PULLUP);
+attachInterrupt(digitalPinToInterrupt(int_pin), hall_interrupt, FALLING);
+}
+
+void loop() {
+    // put your main code here, to run repeatedly:
+
+}
+
+void hall_interrupt(){
+    if(millis() > retraso + 150)
+    {
+        contador++;
+        Serial.print("CONTADOR ");
+        Serial.println(contador);
+        retraso = millis();
+    }
+}
+```
