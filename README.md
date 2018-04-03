@@ -107,3 +107,5 @@ void hall_interrupt(){
     }
 }
 ```
+
+ver este ejemplo: http://diwo.bq.com/utilizando-interrupciones-en-arduino/ 
