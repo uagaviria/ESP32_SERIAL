@@ -1,5 +1,5 @@
 # ESP32_SERIAL
- - INTERRUPCIONES.
+ - # INTERRUPCIONES.
 
 Si usas el IDE de Arduino para programar el ESP32, es posible que el uso del UART 1. requiera un cambio de pines para que funcione.
 
