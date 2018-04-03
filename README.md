@@ -67,3 +67,5 @@ void loop() { //Choose Serial1 or Serial2 as required
  * SERIAL_8O2   8-bit Odd  parity 2 stop bit
 */
 ```
+<img src='https://github.com/uagaviria/ESP32_SERIAL/blob/master/img/SERIAL1.png' />
+
