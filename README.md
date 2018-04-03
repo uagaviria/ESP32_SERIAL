@@ -67,7 +67,7 @@ void loop() { //Choose Serial1 or Serial2 as required
  * SERIAL_8O2   8-bit Odd  parity 2 stop bit
 */
 ```
+# Coneciones del puerto Serial pot Hardware.
 <img src='https://github.com/uagaviria/ESP32_SERIAL/blob/master/img/SERIAL1.png' />
 
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
 
