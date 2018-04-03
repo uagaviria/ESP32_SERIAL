@@ -72,6 +72,14 @@ void loop() { //Choose Serial1 or Serial2 as required
 
 # INTERRUPCIONES
 
+Una interrupción es una señal que para la actividad actual del procesador para ejecutar 
+otra función distinta. La interrupción puede iniciarse debido a una señal externa, por ejemplo 
+la pulsación de un botón, o interna, por ejemplo un temporizador o una señal de software. 
+Una vez que se ha activado, la interrupción pausa lo que esté haciendo el procesador y 
+hace que se ejecute otra función, conocidas como Rutina de Interrupción de Servicio, 
+o ISR por sus siglas en Inglés. Una vez que la ISR ha finalizado, el programa vuelve 
+a lo que se estuviera haciendo en ese momento
+
 ```C++
 #include <Arduino.h>
 #include <WiFi.h>
